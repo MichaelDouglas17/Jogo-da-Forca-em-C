@@ -186,28 +186,16 @@ int main() {
     } while (!acertou() && !enforcou());
 
     if(acertou()) {
-        printf(" ⠀⠀⠀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⢰⡟⢉⣿⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⣿⡉⢻⡆⠀⠀⠀");
-        printf(" ⠀⠀⠀⢸⡆⠀⠁⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠈⠀⢰⡇⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⢿⣄⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⣠⡿⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠻⣦⣄⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⣠⣴⠟⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠙⠻⠶⠄⠙⢿⣿⣿⣿⣿⡿⠋⠠⠶⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀      PARABENS VOCE GANHOU⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠋⠉⠉⠉⠉⠉⠉⠙⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣄⣀⣀⣀⣀⣀⣀⣠⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
-        printf(" ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠀⠀ ");
+            
+        printf("PARABENS VOCE GANHOU⠀");
+
     } else {
         
         printf("      VOCE PERDEU HIHIHI HA \n");
         printf("\n");
         printf(" BEM VINDO AO GIGANTE DA COLINA \n");
         printf("\n A PALAVRA SECRETA ERA == %s ==\n", palavrasecreta);
-    }
+   
 
     adicionapalavra();
 }
